@@ -1,0 +1,47 @@
+/* Set background color or image for the entire page */
+body {
+    background-color: #d5a3a3; /* Replace with your desired background color */
+    /* background-image: url('your-image.jpg'); */ /* Uncomment and replace with your image URL if using an image */
+    background-size: cover; /* Adjust as needed */
+    background-repeat: no-repeat;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: #eaaeae;
+    text-align: center;
+    padding: 1rem 0;
+}
+
+nav h1 {
+    margin: 0;
+}
+
+.container {
+    background-color: #a7c5df;
+    padding: 2rem;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(49, 221, 36, 0.1);
+    text-align: center;
+}
+
+p {
+    font-size: 1.2rem;
+    text-align: center; /* Center-align the text within the container */
+}
+
+button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    cursor: pointer;
+    margin-top: 20px; /* Add margin to space the button from the text */
+}
+
+button:hover {
+    background-color: #0056b3;
+}

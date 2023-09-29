@@ -1,0 +1,53 @@
+/* Reset some default browser styles */
+body, h1, p {
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+
+/* Style the body */
+body {
+    font-family: Arial, sans-serif;
+    /* background-color: #f0f0f0; */
+    text-align: center;
+    padding: 20px;
+}
+
+/* Style the form container */
+form {
+    background-color: #6ab0d1;
+    padding: 60px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    max-width: 300px;
+    margin: 0 auto;
+}
+
+/* Style the select dropdown */
+select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 2.3px solid #30125b;
+    border-radius: 5px;
+}
+
+/* Style the checkboxes */
+input[type="checkbox"] {
+    margin-right: 5px;
+}
+
+/* Style the submit button */
+input[type="submit"] {
+    background-color: #007BFF;
+    /* color: #ffffff; */
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+input[type="submit"]:hover {
+    background-color: #0056b3;
+}
